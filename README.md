@@ -1,1 +1,1 @@
-Repository for cis4340 Git HW02
+Repository for cis4340 Git Lab02
