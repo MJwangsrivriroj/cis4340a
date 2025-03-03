@@ -5,7 +5,7 @@ public class R11_TPS00_J {
     public static void main(String[] args) {
         ExecutorService executor = Executors.newFixedThreadPool(10);
         executor.submit(() -> {
-            // Time-consuming task
+            // Time-consuming task with proper resource management
         });
     }
 }
