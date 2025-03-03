@@ -5,6 +5,6 @@ public class R10_THI00_J {
                 System.out.println("Running thread");
             }
         });
-        thread.run(); // Violation
+        thread.start(); // Compliant
     }
 }
