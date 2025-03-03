@@ -4,7 +4,8 @@ public class R07_ERR00_J {
             // Some code that throws a checked exception
             throw new IOException("Example exception");
         } catch (IOException e) {
-            // Ignore the exception
+            // Handle the exception
+            System.err.println("Error: " + e.getMessage());
         }
     }
 }
